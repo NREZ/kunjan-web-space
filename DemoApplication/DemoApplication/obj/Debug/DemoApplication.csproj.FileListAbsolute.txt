@@ -1,0 +1,15 @@
+D:\project\GitProject\DemoApplication\DemoApplication\obj\Debug\ResolveAssemblyReference.cache
+D:\project\GitProject\DemoApplication\DemoApplication\bin\DemoApplication.dll
+D:\project\GitProject\DemoApplication\DemoApplication\bin\DemoApplication.pdb
+D:\project\GitProject\DemoApplication\DemoApplication\bin\EntityFramework.dll
+D:\project\GitProject\DemoApplication\DemoApplication\bin\Microsoft.Web.Infrastructure.dll
+D:\project\GitProject\DemoApplication\DemoApplication\bin\Ninject.dll
+D:\project\GitProject\DemoApplication\DemoApplication\bin\Ninject.Web.Mvc.dll
+D:\project\GitProject\DemoApplication\DemoApplication\bin\WebActivator.dll
+D:\project\GitProject\DemoApplication\DemoApplication\bin\EntityFramework.xml
+D:\project\GitProject\DemoApplication\DemoApplication\bin\Ninject.pdb
+D:\project\GitProject\DemoApplication\DemoApplication\bin\Ninject.xml
+D:\project\GitProject\DemoApplication\DemoApplication\bin\Ninject.Web.Mvc.pdb
+D:\project\GitProject\DemoApplication\DemoApplication\bin\Ninject.Web.Mvc.xml
+D:\project\GitProject\DemoApplication\DemoApplication\obj\Debug\DemoApplication.dll
+D:\project\GitProject\DemoApplication\DemoApplication\obj\Debug\DemoApplication.pdb

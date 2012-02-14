@@ -1,0 +1,95 @@
+@model IEnumerable<DemoApplication.Customer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th></th>
+        <th>
+            Company_Name
+        </th>
+        <th>
+            Contact_Name
+        </th>
+        <th>
+            Contact_Title
+        </th>
+        <th>
+            Address
+        </th>
+        <th>
+            City
+        </th>
+        <th>
+            Region
+        </th>
+        <th>
+            Postal_Code
+        </th>
+        <th>
+            Country
+        </th>
+        <th>
+            Phone
+        </th>
+        <th>
+            Fax
+        </th>
+        <th>
+            Orders
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Customer_ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Customer_ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Customer_ID })
+        </td>
+        <td>
+			@item.Company_Name
+        </td>
+        <td>
+			@item.Contact_Name
+        </td>
+        <td>
+			@item.Contact_Title
+        </td>
+        <td>
+			@item.Address
+        </td>
+        <td>
+			@item.City
+        </td>
+        <td>
+			@item.Region
+        </td>
+        <td>
+			@item.Postal_Code
+        </td>
+        <td>
+			@item.Country
+        </td>
+        <td>
+			@item.Phone
+        </td>
+        <td>
+			@item.Fax
+        </td>
+        <td>
+			@(item.Orders == null ? "None" : item.Orders.Count.ToString())
+        </td>
+    </tr>
+}
+
+</table>
+
+
